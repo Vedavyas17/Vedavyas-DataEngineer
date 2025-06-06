@@ -16,7 +16,7 @@
     <header>
       <span class="image avatar"><img src="./images/veda/cvv.png" alt="" /></span>
       <h1 id="logo">
-        <a href="https://drive.google.com/file/d/1FGiOVviAu_-cYemJKOIIdUOtmfEPhf_C/view?usp=sharing">Vedavyas Chakkirala
+        <a href="https://drive.google.com/file/d/1CneiErrAmgJK2m7-6LSD_NKXiSTF1SI-/view?usp=sharing">Vedavyas Chakkirala
           (He/Him)</a>
       </h1>
       <p>Cloud Data Engineer</p>
@@ -36,7 +36,7 @@
     <footer>
       <ul class="icons">
         <li>
-          <a href="https://www.linkedin.com/in/vedavyas-chakkirala/" class="icon brands fa-linkedin"><span
+          <a href="https://www.linkedin.com/in/vedavyasc-chakkirala/" class="icon brands fa-linkedin"><span
               class="label">LinkedIn</span></a>
         </li>
         <li>
@@ -166,20 +166,17 @@
           </h4>
           <strong>Data Engineer:</strong>
           <ul>
-            <li>Developed healthcare RCM platform using Azure Data Factory and Databricks, 
-              processing 2M+ daily EMR records with automated quality checks.</li>
-            <li>Architected Medallion architecture in ADLS Gen2 and Delta Lake, 
-              transforming raw data to analytics-ready for 500GB/day with HIPAA-compliant governance.</li>
-            <li>Standardized diverse hospital schemas using the Common Data Model (CDM) and 
-              implemented SCD Type 2 in Delta tables for historical data tracking.</li>
-            <li>Integrated EMR systems, claims processing, and healthcare APIs into 
-              a Gold layer Enterprise Data Warehouse enabling RCM analytics and financial KPIs.</li>
-            <li>Deployed ETL pipelines using ADF orchestration and Databricks/Spark processing, 
-              implementing a metadata-driven pipeline processing 10M+ daily transactions.</li>
-              <li>Implemented parallel processing (batch size 5) and incremental loads 
-                (watermarking) across 10+ tables, with comprehensive audit logging to a Delta table.</li>
-              <li>Enabled advanced RCM analytics, including AR aging analysis and financial dashboards on the Gold layer, 
-                achieving 40% faster reporting delivery times.</li>
+            <li>Architected healthcare RCM platform using Azure Data Factory and Databricks to process 2M+ daily EMR records, 
+              implementing Bronze-SilverGold Medallion architecture in ADLS Gen2 and Delta Lake for 500GB/day analytics with HIPAA compliance.
+            </li>
+            <li>Standardized diverse hospital schemas using Common Data Model (CDM) and implemented SCD Type 2 in Delta tables, integrating EMR systems,
+claims processing, and healthcare APIs into unified Gold layer Enterprise Data Warehouse for comprehensive RCM analytics.</li>
+            <li>Spearheaded metadata-driven ETL pipelines using ADF orchestration and Databricks Spark to handle 10M+ daily transactions, implementing parallel
+processing and incremental watermarking across 10 tables with audit logging.</li>
+            <li>Optimized data processing performance through parallel batch execution and incremental load strategies, reducing ETL runtime from 4 to 1.5 hours and
+maintaining comprehensive audit trails while ensuring data quality validation across healthcare workflows.</li>
+              <li>Pioneered advanced RCM analytics with AR aging analysis and financial dashboards on Gold layer, enabling real-time healthcare KPIs and reducing
+management reporting delivery times by 40%.</li>
           
 
           </ul>
@@ -190,22 +187,21 @@
 
           <strong>Data Engineer:</strong>
           <ul>
-            <li>Architected real-time pipeline with AWS Kinesis & Spark Streaming, 
-              processing 1K+ orders/min in 5-sec micro-batches and streaming analytics to Amazon Redshift.
+            <li>Engineered real-time data pipeline using AWS Kinesis and Apache Spark Streaming to process 1,000+ orders/minute with 5-second micro-batches,
+integrating streaming analytics with Amazon Redshift for executive dashboards and reducing data latency by 85%.
             </li>
-            <li>Pioneered Spark Streaming data quality framework with 10-min watermarking, 
-              mitigating late data for reliable real-time analytics dashboards.
+            <li>Established robust Spark Streaming data quality framework with 10-minute watermarking and automated schema validation using Delta Lake, achieving
+99.9% data accuracy while reducing late arrival data loss by 95% across critical analytics workflows.
             </li>
-            <li>Streamlined ETL orchestration with Airflow, using optimized DAGs for 
-              Spark jobs to boost pipeline efficiency by 30% and maintain 99.9% data consistency.
+            <li>Streamlined ETL orchestration with Apache Airflow Python DAGs and CloudWatch monitoring, improving pipeline efficiency by 30% and reducing
+processing costs by 25% while maintaining 99.9% system uptime.
             </li>
-            <li>Revamped Redshift data warehouse using star schema modeling, distribution key strategies, 
-              reducing query times by 40% while handling 1.5M daily orders.
+            <li>Revamped Redshift data warehouse with star schema modeling and optimized sort keys and distribution keys, reducing query times by 40% and scaling
+to 1.5M daily transactions with 3x improved storage efficiency.
             </li>
-            <li>Created real-time Power BI Premium dashboards, using DirectQuery optimization & query 
-              parallelization to deliver insights in 30 seconds for 50+ concurrent users.
+            <li>Created Power BI Premium dashboards with DirectQuery optimization and row-level security, delivering real-time insights in 30 seconds for 50+ users
+while reducing manual reporting overhead by 70%..
             </li>
-            
             <li>
               Worked with different product vendors on POC, Post Sales
               Implementation.
@@ -218,20 +214,20 @@
           </h4>
           <strong>Data Engineer:</strong>
           <ul>
-            <li>Deployed AWS batch ETL pipeline ingesting 5TB/day of retail data from Snowflake to S3 using tasks, 
-              enabling daily incremental loads for 15M+ transactions.
+            <li>Implemented end-to-end batch ETL pipeline using AWS services (S3, EMR, Lambda, CloudWatch, Glue, Athena), Snowflake, Apache Spark, and
+Airflow to process 50GB+ daily retail data from 5 tables, reducing processing time by 60% and enabling Tableau dashboards for 300K+ transactions.
             </li>
-            <li>Automated Spark transformations on EMR cluster with PySpark/SQL, 
-              calculating 12+ inventory KPIs and reducing manual reporting effort by 40%.
+            <li>Automated daily data extraction from Snowflake OLTP database using SQL stored procedures and CloudWatch-Lambda triggers with Airflow
+orchestration, achieving 99% pipeline reliability and eliminating 8 hours of manual work weekly.
             </li>
-            <li>Orchestrated workflows via Airflow on Dockerized EC2, 
-              implementing S3-to-EMR data validation and error handling for 99.8% pipeline reliability.
+            <li>Orchestrated ETL workflows using Apache Airflow in Docker containers on EC2, managing Spark job submission to Amazon EMR cluster with DAG
+monitoring and achieving 95% reliability across 12 interdependent tasks.
             </li>
-            <li>Designed AWS Glue Data Catalog for Parquet files, enabling SQL analytics in 
-              Athena and Tableau dashboards with 30-second query response times.
+            <li>Optimized PySpark transformation scripts on Amazon EMR to generate weekly fact tables with 13 business metrics including sales and inventory
+indicators, optimizing query performance by 70% using parquet format output.
             </li>
-            <li>Accelerated CI/CD for Spark jobs using Lambda-triggered Airflow DAGs, 
-              cutting deployment time by 50% with Git-driven version control.
+            <li>Designed automated data catalog using AWS Glue crawlers to create Athena-queryable tables integrated with Tableau, enabling Data Analysts to
+generate insights 5x faster through interactive dashboards.
             </li>
             
             <li>
