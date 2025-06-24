@@ -1,2 +1,1 @@
-# Vedavyas Portfolio
-[🔗 Live Portfolio](https://vedavyas17.github.io/Vedavyas-DataEngineer/)
+# [🔗 Vedavyas Portfolio](https://vedavyas17.github.io/Vedavyas-DataEngineer/)
