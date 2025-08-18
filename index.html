@@ -502,6 +502,57 @@ monitoring and achieving 95% reliability across 12 interdependent tasks.
           <p>Below are a few hands-on projects that I worked on.</p>
           <div class="features">
             <article>
+            <a href="https://github.com/Vedavyas17/BDAFinalProject" class="image"><img
+                src="images\veda\456.png" alt="GrandFile share" /></a>
+            <div class="inner">
+              <h4>
+                E-commerce Business Intelligence Platform with dbt and Kafka
+              </h4>dbt (Data Build Tool)
+              <p>
+                This project is designed to enable real-time web activity analytics, addressing the business need to gain immediate insights into user behavior 
+                and website interactions, such as clicks, devices used, and network information. From a technical standpoint, the solution begins with a 
+                Python3 FakeData generator simulating web activity at a rate of one row per second, which is then streamed by a Kafka producer into a Kafka broker. 
+                This establishes a Kafka–Spark pipeline that effectively ingests over 86,000 daily web events (derived from 1 row per second) into a 
+                Data Lake hosted on Google Cloud Platform (GCP), specifically Google Cloud Storage, thereby supporting seamless minute-level data updates.
+                
+                A crucial transformation layer involves dbt (Data Build Tool), with its transformations automated within a Dockerized Airflow environment, 
+                which processes the raw data from the Data Lake. This refined and structured data is then loaded into BigQuery, Google's cloud data warehouse, 
+                facilitating the creation of real-time dashboards using Google Studio. The entire underlying infrastructure on GCP, including BigQuery datasets, 
+                Kafka, Spark clusters, and Airflow instances, is systematically provisioned and managed using Terraform for automation and consistency.
+
+              </p>
+              <p>
+                Skills learned and applied: BigQuery, Airflow, Apache Kafka, Spark, Docker
+              </p>
+            </div>
+            </article>
+            <article>
+            <a href="https://github.com/Vedavyas17/Real-Time-Food-Analytics-Platform-with-Snowflake-CDC" class="image"><img
+                src="images\veda\snowdlake_project.png" alt="GrandFile share" /></a>
+            <div class="inner">
+              <h4>
+                Real-Time Food Analytics Platform with Snowflake CDC
+              </h4>
+              <p>
+                The Real-Time Food Analytics Platform with Snowflake CDC project, primarily developed in Python and built upon a robust Dimensional Modeling framework, 
+                was engineered to provide real-time insights into food order fulfillment metrics, addressing the critical business need for accelerated decision-making. 
+                Technically, this highly scalable solution centers on an engineered Snowflake Medallion platform, designed to efficiently process substantial data volumes 
+                including 10M+ daily transactions and 500GB of food records. It leverages Snowflake Streams for Change Data Capture (CDC) to ingest incremental data changes 
+                in near real-time, and implements SCD Type 2 for comprehensive historical tracking within its dimension tables. The project's structured approach is based 
+                on Dimensional Modeling, utilizing fact tables like order_item_fact to capture granular business events and metrics, complemented by various dimension tables 
+                (such as customer, menu, restaurant, date, location, and delivery agent dimensions) which provide descriptive attributes for rich analytical querying and reporting. 
+                
+                The curated and transformed data is then surfaced through real-time Streamlit dashboards which are performance-optimized via Materialized Views, ultimately 
+                empowering users to make 30% faster decisions for critical order fulfillment metrics. The entire platform is deployed on AWS, leveraging its cloud capabilities for 
+                scalability and reliability.
+
+              </p>
+              <p>
+                Skills learned and applied: Snowflake, Amazon Web Services (AWS), Dimensional Modeling, Streamlit, Extract, Transform, Load (ETL)
+              </p>
+            </div>
+            </article>
+            <article>
             <a href="https://github.com/Vedavyas17/Real-Time-Credit-Card-Fraud-Detection-Pipeline" class="image"><img
                 src="images\fraud detection.webp" alt="GrandFile share" /></a>
             <div class="inner">
